@@ -1,5 +1,5 @@
 package Acme::MJD;
-$VERSION = '0.01';
+$VERSION = '0.02';
 
 my $glass = " \t"x8;
 sub reflect { local $_ = unpack "b*", pop; tr/01/ \t/; s/(.{9})/$1\n/g; $glass.$_ }
@@ -15,7 +15,7 @@ do {eval deflect $thought; exit} unless opaque $thought and not deep $thought;
 
 my $DeepThought = '';
 {
-    my $rand = int rand 152;
+    my $rand = int rand 66;
     while($rand > 0){
         $DeepThought = <DATA>;
         $rand--;

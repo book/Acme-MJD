@@ -1,5 +1,5 @@
 # perl Makefile.PL && nmake realclean && cls && perl Makefile.PL && nmake test
-# cpan-upload -mailto yo@yo.yo -verbose -user podmaster Acme-MJD-0.01.tar.gz
+# cpan-upload -mailto yo@yo.yo -verbose -user podmaster Acme-MJD-0.02.tar.gz
 
 
 use ExtUtils::MakeMaker;
